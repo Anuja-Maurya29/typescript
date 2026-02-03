@@ -63,3 +63,28 @@ let b = new B()
 
 call(a)
 call(b)
+
+//4 in operator 
+type student= {
+    name:string,
+    id:number,
+    age:number,
+    course:string
+
+}
+let s1:student={
+   name:"Anuja",
+   id:101,
+   age:22,
+   course:"MERN"
+}
+
+if("age" in s1){
+    console.log(s1.age);
+}
+
+
+//user defined 
+//  using if else
+
+    

@@ -75,3 +75,14 @@ var a = new A();
 var b = new B();
 call(a);
 call(b);
+var s1 = {
+    name: "Anuja",
+    id: 101,
+    age: 22,
+    course: "MERN"
+};
+if ("age" in s1) {
+    console.log(s1.age);
+}
+//user defined 
+//  using if else
