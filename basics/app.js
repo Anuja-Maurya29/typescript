@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // types in ts
 // primitive and refrence
-// 1. primitive:
+// 1. primitive: pass by value
 let a = 20;
 let msg = "hello";
 console.log(typeof a, a);

@@ -1,6 +1,6 @@
 // types in ts
 // primitive and refrence
-// 1. primitive:
+// 1. primitive: pass by value
 let a:number= 20;
 let msg:string = "hello"
 console.log(typeof a, a);
